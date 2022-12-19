@@ -6,12 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 <style>
-    @font-face {
-        font-family: 'Pretendard-Regular';
-        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-        font-weight: 400;
-        font-style: normal;
-    }
     * {
         padding: 0;
         margin: 0;
@@ -60,13 +54,9 @@
     #main_img {
         float: center;
         margin: 0 auto;
-        padding: 110px 0 200px 170px;
+        padding: 110px 0 200px 0;
         width: 1140px;
         height: 500px;
-        transition: all 0.2s linear;
-    }
-    #main_img:hover {
-        transform: scale(1.05);
     }
     #contents {
         width: 1140px;
@@ -95,28 +85,30 @@
         color: #751485;
         transition-property: transform;
         display: inline-block;
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
+        transition-duration: $defaultDuration;
+        transition-property: transform;
+
+        @include hideTapHighlightColor();
+        @include hardwareAccel();
+        @include improveAntiAlias();
     }
+    
     a:hover {
-        -webkit-transform: scale(1.1);
+        color: #37043f;
         transform: scale(1.1);
     }
 
     h3 {
         text-align: left;
         font-size: 40px;
-        margin-left: 65px;
+        margin-left: 80px;
         color: #751485;
     }
 
     p {
         text-align: left;
-        font-size: 17px;
-        margin-left: 67px;
-        margin-bottom: 20px;
+        font-size: 20px;
+        margin-left: 80px;
         color: #751485;
     }
     button {
@@ -124,8 +116,7 @@
         padding: 5px;
     }
     table {
-        margin-left: 50px;
-        margin-bottom: 30px;
+        margin-left: 20px;
     }
 </style>
 </head>
@@ -136,6 +127,7 @@
         </div>
         <nav id="menus">
         <div id="top_menu">
+
             로그인 | 회원가입 | 공지사항
         </div>
         <ul id="main_menu">
@@ -151,14 +143,13 @@
     <section id="main_img">
         <table>
             <td>
-                <img src="./img/pc2.png" width="500px">
+                <img src="./img/ig.png" width="500px">
             </td>
             <td>
-                <h3>함께하씨유!</h3> <br>
-                <p>CU를 더 가깝게, 더 편리하게! <br> 온라인으로 재고조회와 예약서비스, <br> 오프라인으로 포인트 적립 등 손쉬운 기능까지</p>
-                <p>지금 바로 다운로드 하세요!</p>
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://play.google.com/store/apps/details?id=com.bgfcu.membership&hl=ko&gl=US"><img src="./img/ad.png" width="120px"></a>
-                &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://apps.apple.com/kr/app/%ED%8F%AC%EC%BC%93cu/id573144133"><img src="./img/ap.png" width="120px"></a>
+                <h3>임자있씨유!</h3>
+                <p>인기 상품, 누가 사갈지 불안하다면?</p>
+                <p>이 상품 임자있어요! 미리 예약하세요</p>
+                <br>
             </td>
         </table>
     </section>
@@ -167,7 +158,5 @@
         NICE TO CU <br><br>
         COPYRIGHT © Do Yeon Kim ALL RIGHT RESERVED.
     </footer>
-
-    
 </body>
 </html>
