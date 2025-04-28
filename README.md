@@ -1,5 +1,5 @@
 ### :ocean: Welcome to Dovi's Github :ocean:
-Nice 2 meet ya! I'm a Jr.frontEnd Developer :hatched_chick: <br>
+Nice 2 meet ya! I'm a Jr.frontEnd Developer, Doyeon Kim :hatched_chick: <br>
 반갑습니다! 저는 주니어 프론트엔드 개발자 김도연입니다. <br><br>
 I'd like to do something fun with fun people. That's my goal :soccer:<br>
 저는 재밌는 무언가를 재밌는 사람들과 함께 하는 것을 좋아하고, 그게 제 목표입니다.
