@@ -12,6 +12,9 @@ I'd like to do something fun with fun people. That's my goal :soccer:<br>
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
 <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=PHP&logoColor=white"/>
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white"/>
+|![mysql](https://img.shields.io/badge/mysql-4479A1?style=flat-square&logo=mysql&logoColor=white)|
+|![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white)|
+
 
 ### :mag_right: Github Stats :mag_right:
 <img src="https://github-readme-stats.vercel.app/api?username=dododoodo&show_icons=true&theme=gotham">
